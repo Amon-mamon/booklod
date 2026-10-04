@@ -9,7 +9,7 @@ export function AppHeader({ showAddBook }: { showAddBook: boolean }) {
   return (
     <div className="max-w-xl mx-auto flex items-center justify-between mb-5">
       <Link href={ROUTES.home} className="flex items-center gap-2.5">
-        <LogoMark size={30} />
+        <LogoMark/>
         <span className="text-lg font-bold leading-none" style={{ color: colors.navy }}>
           <Wordmark />
         </span>
